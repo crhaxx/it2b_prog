@@ -11,7 +11,7 @@ int main() {
         arr[i] = rand() % ('z' - 'a' + 1) + 'a';
     }
 
-    int index = rand() % (5 - 1 + 1) + 1;
+    int index = rand() % (4 - 0 + 1) + 0;
 
     printf("%c\n", arr[index]);
     return 0;
